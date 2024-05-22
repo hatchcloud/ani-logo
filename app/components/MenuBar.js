@@ -7,7 +7,7 @@ import { useState } from "react";
 const MenuBar = () => {
   const [showSecond, setShowSecond] = useState(false);
   return (
-    <section className=' h-full w-full'>
+    <section className=' h-full w-full flex justify-center items-center'>
     <nav className=' w-full flex justify-between max-w-[1200px] py-4 px-2 '>
      <div className=' w-[215px] '>
        {!showSecond && <SmallLogo />}
